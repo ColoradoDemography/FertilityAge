@@ -1,0 +1,2690 @@
+[
+  {
+    "FIPS": 1,
+    "GEONAME": "Adams County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -344
+  },
+  {
+    "FIPS": 1,
+    "GEONAME": "Adams County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -379
+  },
+  {
+    "FIPS": 1,
+    "GEONAME": "Adams County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -106
+  },
+  {
+    "FIPS": 1,
+    "GEONAME": "Adams County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 115
+  },
+  {
+    "FIPS": 1,
+    "GEONAME": "Adams County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 253
+  },
+  {
+    "FIPS": 1,
+    "GEONAME": "Adams County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 32
+  },
+  {
+    "FIPS": 3,
+    "GEONAME": "Alamosa County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -16
+  },
+  {
+    "FIPS": 3,
+    "GEONAME": "Alamosa County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -37
+  },
+  {
+    "FIPS": 3,
+    "GEONAME": "Alamosa County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -11
+  },
+  {
+    "FIPS": 3,
+    "GEONAME": "Alamosa County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 11
+  },
+  {
+    "FIPS": 3,
+    "GEONAME": "Alamosa County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 5
+  },
+  {
+    "FIPS": 3,
+    "GEONAME": "Alamosa County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 2
+  },
+  {
+    "FIPS": 5,
+    "GEONAME": "Arapahoe County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -260
+  },
+  {
+    "FIPS": 5,
+    "GEONAME": "Arapahoe County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -413
+  },
+  {
+    "FIPS": 5,
+    "GEONAME": "Arapahoe County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -215
+  },
+  {
+    "FIPS": 5,
+    "GEONAME": "Arapahoe County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 389
+  },
+  {
+    "FIPS": 5,
+    "GEONAME": "Arapahoe County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 282
+  },
+  {
+    "FIPS": 5,
+    "GEONAME": "Arapahoe County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 73
+  },
+  {
+    "FIPS": 7,
+    "GEONAME": "Archuleta County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -12
+  },
+  {
+    "FIPS": 7,
+    "GEONAME": "Archuleta County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -13
+  },
+  {
+    "FIPS": 7,
+    "GEONAME": "Archuleta County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -16
+  },
+  {
+    "FIPS": 7,
+    "GEONAME": "Archuleta County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 1
+  },
+  {
+    "FIPS": 7,
+    "GEONAME": "Archuleta County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 7
+  },
+  {
+    "FIPS": 7,
+    "GEONAME": "Archuleta County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 9,
+    "GEONAME": "Baca County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 9,
+    "GEONAME": "Baca County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 9,
+    "GEONAME": "Baca County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 1
+  },
+  {
+    "FIPS": 9,
+    "GEONAME": "Baca County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 9,
+    "GEONAME": "Baca County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 4
+  },
+  {
+    "FIPS": 9,
+    "GEONAME": "Baca County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 11,
+    "GEONAME": "Bent County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 11,
+    "GEONAME": "Bent County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -6
+  },
+  {
+    "FIPS": 11,
+    "GEONAME": "Bent County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 9
+  },
+  {
+    "FIPS": 11,
+    "GEONAME": "Bent County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 11,
+    "GEONAME": "Bent County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 11,
+    "GEONAME": "Bent County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 13,
+    "GEONAME": "Boulder County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -90
+  },
+  {
+    "FIPS": 13,
+    "GEONAME": "Boulder County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -95
+  },
+  {
+    "FIPS": 13,
+    "GEONAME": "Boulder County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -211
+  },
+  {
+    "FIPS": 13,
+    "GEONAME": "Boulder County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -83
+  },
+  {
+    "FIPS": 13,
+    "GEONAME": "Boulder County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": -14
+  },
+  {
+    "FIPS": 13,
+    "GEONAME": "Boulder County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 14,
+    "GEONAME": "Broomfield County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -7
+  },
+  {
+    "FIPS": 14,
+    "GEONAME": "Broomfield County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -21
+  },
+  {
+    "FIPS": 14,
+    "GEONAME": "Broomfield County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -30
+  },
+  {
+    "FIPS": 14,
+    "GEONAME": "Broomfield County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -10
+  },
+  {
+    "FIPS": 14,
+    "GEONAME": "Broomfield County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 12
+  },
+  {
+    "FIPS": 14,
+    "GEONAME": "Broomfield County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 5
+  },
+  {
+    "FIPS": 15,
+    "GEONAME": "Chaffee County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -5
+  },
+  {
+    "FIPS": 15,
+    "GEONAME": "Chaffee County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -29
+  },
+  {
+    "FIPS": 15,
+    "GEONAME": "Chaffee County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -13
+  },
+  {
+    "FIPS": 15,
+    "GEONAME": "Chaffee County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 15
+  },
+  {
+    "FIPS": 15,
+    "GEONAME": "Chaffee County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 20
+  },
+  {
+    "FIPS": 15,
+    "GEONAME": "Chaffee County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 17,
+    "GEONAME": "Cheyenne County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 17,
+    "GEONAME": "Cheyenne County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 17,
+    "GEONAME": "Cheyenne County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 5
+  },
+  {
+    "FIPS": 17,
+    "GEONAME": "Cheyenne County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -1
+  },
+  {
+    "FIPS": 17,
+    "GEONAME": "Cheyenne County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 17,
+    "GEONAME": "Cheyenne County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 19,
+    "GEONAME": "Clear Creek County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 19,
+    "GEONAME": "Clear Creek County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -7
+  },
+  {
+    "FIPS": 19,
+    "GEONAME": "Clear Creek County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 10
+  },
+  {
+    "FIPS": 19,
+    "GEONAME": "Clear Creek County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 10
+  },
+  {
+    "FIPS": 19,
+    "GEONAME": "Clear Creek County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": -7
+  },
+  {
+    "FIPS": 19,
+    "GEONAME": "Clear Creek County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": -4
+  },
+  {
+    "FIPS": 21,
+    "GEONAME": "Conejos County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -14
+  },
+  {
+    "FIPS": 21,
+    "GEONAME": "Conejos County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -10
+  },
+  {
+    "FIPS": 21,
+    "GEONAME": "Conejos County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 1
+  },
+  {
+    "FIPS": 21,
+    "GEONAME": "Conejos County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 1
+  },
+  {
+    "FIPS": 21,
+    "GEONAME": "Conejos County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 21,
+    "GEONAME": "Conejos County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 23,
+    "GEONAME": "Costilla County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 23,
+    "GEONAME": "Costilla County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -11
+  },
+  {
+    "FIPS": 23,
+    "GEONAME": "Costilla County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 12
+  },
+  {
+    "FIPS": 23,
+    "GEONAME": "Costilla County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 23,
+    "GEONAME": "Costilla County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 23,
+    "GEONAME": "Costilla County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 25,
+    "GEONAME": "Crowley County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 25,
+    "GEONAME": "Crowley County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -6
+  },
+  {
+    "FIPS": 25,
+    "GEONAME": "Crowley County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 25,
+    "GEONAME": "Crowley County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 25,
+    "GEONAME": "Crowley County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 25,
+    "GEONAME": "Crowley County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 27,
+    "GEONAME": "Custer County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 27,
+    "GEONAME": "Custer County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": 1
+  },
+  {
+    "FIPS": 27,
+    "GEONAME": "Custer County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 4
+  },
+  {
+    "FIPS": 27,
+    "GEONAME": "Custer County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 27,
+    "GEONAME": "Custer County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 4
+  },
+  {
+    "FIPS": 27,
+    "GEONAME": "Custer County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 29,
+    "GEONAME": "Delta County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -30
+  },
+  {
+    "FIPS": 29,
+    "GEONAME": "Delta County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -52
+  },
+  {
+    "FIPS": 29,
+    "GEONAME": "Delta County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 12
+  },
+  {
+    "FIPS": 29,
+    "GEONAME": "Delta County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -7
+  },
+  {
+    "FIPS": 29,
+    "GEONAME": "Delta County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 7
+  },
+  {
+    "FIPS": 29,
+    "GEONAME": "Delta County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 1
+  },
+  {
+    "FIPS": 31,
+    "GEONAME": "Denver County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -453
+  },
+  {
+    "FIPS": 31,
+    "GEONAME": "Denver County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -604
+  },
+  {
+    "FIPS": 31,
+    "GEONAME": "Denver County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -527
+  },
+  {
+    "FIPS": 31,
+    "GEONAME": "Denver County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 164
+  },
+  {
+    "FIPS": 31,
+    "GEONAME": "Denver County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 421
+  },
+  {
+    "FIPS": 31,
+    "GEONAME": "Denver County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 79
+  },
+  {
+    "FIPS": 33,
+    "GEONAME": "Dolores County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 33,
+    "GEONAME": "Dolores County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 33,
+    "GEONAME": "Dolores County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 33,
+    "GEONAME": "Dolores County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 33,
+    "GEONAME": "Dolores County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 33,
+    "GEONAME": "Dolores County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 35,
+    "GEONAME": "Douglas County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -39
+  },
+  {
+    "FIPS": 35,
+    "GEONAME": "Douglas County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -31
+  },
+  {
+    "FIPS": 35,
+    "GEONAME": "Douglas County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -59
+  },
+  {
+    "FIPS": 35,
+    "GEONAME": "Douglas County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 28
+  },
+  {
+    "FIPS": 35,
+    "GEONAME": "Douglas County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 142
+  },
+  {
+    "FIPS": 35,
+    "GEONAME": "Douglas County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": -15
+  },
+  {
+    "FIPS": 37,
+    "GEONAME": "Eagle County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -21
+  },
+  {
+    "FIPS": 37,
+    "GEONAME": "Eagle County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -43
+  },
+  {
+    "FIPS": 37,
+    "GEONAME": "Eagle County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -37
+  },
+  {
+    "FIPS": 37,
+    "GEONAME": "Eagle County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -41
+  },
+  {
+    "FIPS": 37,
+    "GEONAME": "Eagle County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 25
+  },
+  {
+    "FIPS": 37,
+    "GEONAME": "Eagle County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": -7
+  },
+  {
+    "FIPS": 39,
+    "GEONAME": "Elbert County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -10
+  },
+  {
+    "FIPS": 39,
+    "GEONAME": "Elbert County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 39,
+    "GEONAME": "Elbert County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 19
+  },
+  {
+    "FIPS": 39,
+    "GEONAME": "Elbert County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 38
+  },
+  {
+    "FIPS": 39,
+    "GEONAME": "Elbert County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 22
+  },
+  {
+    "FIPS": 39,
+    "GEONAME": "Elbert County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": -11
+  },
+  {
+    "FIPS": 41,
+    "GEONAME": "El Paso County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -321
+  },
+  {
+    "FIPS": 41,
+    "GEONAME": "El Paso County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -580
+  },
+  {
+    "FIPS": 41,
+    "GEONAME": "El Paso County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -9
+  },
+  {
+    "FIPS": 41,
+    "GEONAME": "El Paso County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 317
+  },
+  {
+    "FIPS": 41,
+    "GEONAME": "El Paso County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 313
+  },
+  {
+    "FIPS": 41,
+    "GEONAME": "El Paso County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 44
+  },
+  {
+    "FIPS": 43,
+    "GEONAME": "Fremont County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -9
+  },
+  {
+    "FIPS": 43,
+    "GEONAME": "Fremont County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -38
+  },
+  {
+    "FIPS": 43,
+    "GEONAME": "Fremont County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 21
+  },
+  {
+    "FIPS": 43,
+    "GEONAME": "Fremont County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 33
+  },
+  {
+    "FIPS": 43,
+    "GEONAME": "Fremont County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 17
+  },
+  {
+    "FIPS": 43,
+    "GEONAME": "Fremont County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 7
+  },
+  {
+    "FIPS": 45,
+    "GEONAME": "Garfield County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -38
+  },
+  {
+    "FIPS": 45,
+    "GEONAME": "Garfield County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -46
+  },
+  {
+    "FIPS": 45,
+    "GEONAME": "Garfield County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -34
+  },
+  {
+    "FIPS": 45,
+    "GEONAME": "Garfield County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -40
+  },
+  {
+    "FIPS": 45,
+    "GEONAME": "Garfield County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 29
+  },
+  {
+    "FIPS": 45,
+    "GEONAME": "Garfield County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 18
+  },
+  {
+    "FIPS": 47,
+    "GEONAME": "Gilpin County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 47,
+    "GEONAME": "Gilpin County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 47,
+    "GEONAME": "Gilpin County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 47,
+    "GEONAME": "Gilpin County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 47,
+    "GEONAME": "Gilpin County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 4
+  },
+  {
+    "FIPS": 47,
+    "GEONAME": "Gilpin County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 49,
+    "GEONAME": "Grand County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 49,
+    "GEONAME": "Grand County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": 5
+  },
+  {
+    "FIPS": 49,
+    "GEONAME": "Grand County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 15
+  },
+  {
+    "FIPS": 49,
+    "GEONAME": "Grand County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 4
+  },
+  {
+    "FIPS": 49,
+    "GEONAME": "Grand County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 5
+  },
+  {
+    "FIPS": 49,
+    "GEONAME": "Grand County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 6
+  },
+  {
+    "FIPS": 51,
+    "GEONAME": "Gunnison County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 51,
+    "GEONAME": "Gunnison County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -2
+  },
+  {
+    "FIPS": 51,
+    "GEONAME": "Gunnison County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -6
+  },
+  {
+    "FIPS": 51,
+    "GEONAME": "Gunnison County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -13
+  },
+  {
+    "FIPS": 51,
+    "GEONAME": "Gunnison County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 7
+  },
+  {
+    "FIPS": 51,
+    "GEONAME": "Gunnison County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 1
+  },
+  {
+    "FIPS": 53,
+    "GEONAME": "Hinsdale County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 53,
+    "GEONAME": "Hinsdale County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 53,
+    "GEONAME": "Hinsdale County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 53,
+    "GEONAME": "Hinsdale County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 53,
+    "GEONAME": "Hinsdale County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 53,
+    "GEONAME": "Hinsdale County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 55,
+    "GEONAME": "Huerfano County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -5
+  },
+  {
+    "FIPS": 55,
+    "GEONAME": "Huerfano County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -7
+  },
+  {
+    "FIPS": 55,
+    "GEONAME": "Huerfano County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 6
+  },
+  {
+    "FIPS": 55,
+    "GEONAME": "Huerfano County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 55,
+    "GEONAME": "Huerfano County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 55,
+    "GEONAME": "Huerfano County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 57,
+    "GEONAME": "Jackson County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -4
+  },
+  {
+    "FIPS": 57,
+    "GEONAME": "Jackson County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 57,
+    "GEONAME": "Jackson County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 57,
+    "GEONAME": "Jackson County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 57,
+    "GEONAME": "Jackson County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 57,
+    "GEONAME": "Jackson County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 59,
+    "GEONAME": "Jefferson County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -184
+  },
+  {
+    "FIPS": 59,
+    "GEONAME": "Jefferson County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -411
+  },
+  {
+    "FIPS": 59,
+    "GEONAME": "Jefferson County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -280
+  },
+  {
+    "FIPS": 59,
+    "GEONAME": "Jefferson County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 589
+  },
+  {
+    "FIPS": 59,
+    "GEONAME": "Jefferson County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 423
+  },
+  {
+    "FIPS": 59,
+    "GEONAME": "Jefferson County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 51
+  },
+  {
+    "FIPS": 61,
+    "GEONAME": "Kiowa County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 61,
+    "GEONAME": "Kiowa County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 61,
+    "GEONAME": "Kiowa County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 61,
+    "GEONAME": "Kiowa County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 61,
+    "GEONAME": "Kiowa County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 61,
+    "GEONAME": "Kiowa County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 63,
+    "GEONAME": "Kit Carson County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -9
+  },
+  {
+    "FIPS": 63,
+    "GEONAME": "Kit Carson County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -13
+  },
+  {
+    "FIPS": 63,
+    "GEONAME": "Kit Carson County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 6
+  },
+  {
+    "FIPS": 63,
+    "GEONAME": "Kit Carson County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 9
+  },
+  {
+    "FIPS": 63,
+    "GEONAME": "Kit Carson County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": -4
+  },
+  {
+    "FIPS": 63,
+    "GEONAME": "Kit Carson County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 65,
+    "GEONAME": "Lake County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -7
+  },
+  {
+    "FIPS": 65,
+    "GEONAME": "Lake County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -24
+  },
+  {
+    "FIPS": 65,
+    "GEONAME": "Lake County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 65,
+    "GEONAME": "Lake County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -1
+  },
+  {
+    "FIPS": 65,
+    "GEONAME": "Lake County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": -8
+  },
+  {
+    "FIPS": 65,
+    "GEONAME": "Lake County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 67,
+    "GEONAME": "La Plata County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -37
+  },
+  {
+    "FIPS": 67,
+    "GEONAME": "La Plata County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -48
+  },
+  {
+    "FIPS": 67,
+    "GEONAME": "La Plata County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -15
+  },
+  {
+    "FIPS": 67,
+    "GEONAME": "La Plata County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 25
+  },
+  {
+    "FIPS": 67,
+    "GEONAME": "La Plata County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 16
+  },
+  {
+    "FIPS": 67,
+    "GEONAME": "La Plata County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": -4
+  },
+  {
+    "FIPS": 69,
+    "GEONAME": "Larimer County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -106
+  },
+  {
+    "FIPS": 69,
+    "GEONAME": "Larimer County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -156
+  },
+  {
+    "FIPS": 69,
+    "GEONAME": "Larimer County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -131
+  },
+  {
+    "FIPS": 69,
+    "GEONAME": "Larimer County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -4
+  },
+  {
+    "FIPS": 69,
+    "GEONAME": "Larimer County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 164
+  },
+  {
+    "FIPS": 69,
+    "GEONAME": "Larimer County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 7
+  },
+  {
+    "FIPS": 71,
+    "GEONAME": "Las Animas County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -17
+  },
+  {
+    "FIPS": 71,
+    "GEONAME": "Las Animas County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -21
+  },
+  {
+    "FIPS": 71,
+    "GEONAME": "Las Animas County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -10
+  },
+  {
+    "FIPS": 71,
+    "GEONAME": "Las Animas County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 8
+  },
+  {
+    "FIPS": 71,
+    "GEONAME": "Las Animas County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 71,
+    "GEONAME": "Las Animas County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 73,
+    "GEONAME": "Lincoln County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 73,
+    "GEONAME": "Lincoln County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -14
+  },
+  {
+    "FIPS": 73,
+    "GEONAME": "Lincoln County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -2
+  },
+  {
+    "FIPS": 73,
+    "GEONAME": "Lincoln County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -1
+  },
+  {
+    "FIPS": 73,
+    "GEONAME": "Lincoln County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 4
+  },
+  {
+    "FIPS": 73,
+    "GEONAME": "Lincoln County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 75,
+    "GEONAME": "Logan County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -5
+  },
+  {
+    "FIPS": 75,
+    "GEONAME": "Logan County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -8
+  },
+  {
+    "FIPS": 75,
+    "GEONAME": "Logan County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 8
+  },
+  {
+    "FIPS": 75,
+    "GEONAME": "Logan County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 18
+  },
+  {
+    "FIPS": 75,
+    "GEONAME": "Logan County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 1
+  },
+  {
+    "FIPS": 75,
+    "GEONAME": "Logan County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 5
+  },
+  {
+    "FIPS": 77,
+    "GEONAME": "Mesa County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -93
+  },
+  {
+    "FIPS": 77,
+    "GEONAME": "Mesa County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -156
+  },
+  {
+    "FIPS": 77,
+    "GEONAME": "Mesa County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -159
+  },
+  {
+    "FIPS": 77,
+    "GEONAME": "Mesa County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 16
+  },
+  {
+    "FIPS": 77,
+    "GEONAME": "Mesa County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 51
+  },
+  {
+    "FIPS": 77,
+    "GEONAME": "Mesa County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 5
+  },
+  {
+    "FIPS": 79,
+    "GEONAME": "Mineral County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 79,
+    "GEONAME": "Mineral County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 79,
+    "GEONAME": "Mineral County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 79,
+    "GEONAME": "Mineral County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 79,
+    "GEONAME": "Mineral County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 79,
+    "GEONAME": "Mineral County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 81,
+    "GEONAME": "Moffat County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -13
+  },
+  {
+    "FIPS": 81,
+    "GEONAME": "Moffat County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -21
+  },
+  {
+    "FIPS": 81,
+    "GEONAME": "Moffat County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -15
+  },
+  {
+    "FIPS": 81,
+    "GEONAME": "Moffat County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -4
+  },
+  {
+    "FIPS": 81,
+    "GEONAME": "Moffat County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 81,
+    "GEONAME": "Moffat County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 83,
+    "GEONAME": "Montezuma County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -33
+  },
+  {
+    "FIPS": 83,
+    "GEONAME": "Montezuma County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -42
+  },
+  {
+    "FIPS": 83,
+    "GEONAME": "Montezuma County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 2
+  },
+  {
+    "FIPS": 83,
+    "GEONAME": "Montezuma County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 83,
+    "GEONAME": "Montezuma County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 2
+  },
+  {
+    "FIPS": 83,
+    "GEONAME": "Montezuma County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 8
+  },
+  {
+    "FIPS": 85,
+    "GEONAME": "Montrose County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -35
+  },
+  {
+    "FIPS": 85,
+    "GEONAME": "Montrose County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -26
+  },
+  {
+    "FIPS": 85,
+    "GEONAME": "Montrose County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -42
+  },
+  {
+    "FIPS": 85,
+    "GEONAME": "Montrose County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -7
+  },
+  {
+    "FIPS": 85,
+    "GEONAME": "Montrose County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 23
+  },
+  {
+    "FIPS": 85,
+    "GEONAME": "Montrose County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 5
+  },
+  {
+    "FIPS": 87,
+    "GEONAME": "Morgan County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -28
+  },
+  {
+    "FIPS": 87,
+    "GEONAME": "Morgan County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -55
+  },
+  {
+    "FIPS": 87,
+    "GEONAME": "Morgan County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 33
+  },
+  {
+    "FIPS": 87,
+    "GEONAME": "Morgan County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 23
+  },
+  {
+    "FIPS": 87,
+    "GEONAME": "Morgan County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 87,
+    "GEONAME": "Morgan County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": -7
+  },
+  {
+    "FIPS": 89,
+    "GEONAME": "Otero County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -26
+  },
+  {
+    "FIPS": 89,
+    "GEONAME": "Otero County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -28
+  },
+  {
+    "FIPS": 89,
+    "GEONAME": "Otero County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 10
+  },
+  {
+    "FIPS": 89,
+    "GEONAME": "Otero County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -7
+  },
+  {
+    "FIPS": 89,
+    "GEONAME": "Otero County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 18
+  },
+  {
+    "FIPS": 89,
+    "GEONAME": "Otero County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": -6
+  },
+  {
+    "FIPS": 91,
+    "GEONAME": "Ouray County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 91,
+    "GEONAME": "Ouray County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 91,
+    "GEONAME": "Ouray County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 91,
+    "GEONAME": "Ouray County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 2
+  },
+  {
+    "FIPS": 91,
+    "GEONAME": "Ouray County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": -7
+  },
+  {
+    "FIPS": 91,
+    "GEONAME": "Ouray County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 93,
+    "GEONAME": "Park County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 93,
+    "GEONAME": "Park County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -5
+  },
+  {
+    "FIPS": 93,
+    "GEONAME": "Park County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 7
+  },
+  {
+    "FIPS": 93,
+    "GEONAME": "Park County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 20
+  },
+  {
+    "FIPS": 93,
+    "GEONAME": "Park County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 4
+  },
+  {
+    "FIPS": 93,
+    "GEONAME": "Park County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 7
+  },
+  {
+    "FIPS": 95,
+    "GEONAME": "Phillips County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -4
+  },
+  {
+    "FIPS": 95,
+    "GEONAME": "Phillips County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 95,
+    "GEONAME": "Phillips County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -1
+  },
+  {
+    "FIPS": 95,
+    "GEONAME": "Phillips County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 2
+  },
+  {
+    "FIPS": 95,
+    "GEONAME": "Phillips County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 95,
+    "GEONAME": "Phillips County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 97,
+    "GEONAME": "Pitkin County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 97,
+    "GEONAME": "Pitkin County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -6
+  },
+  {
+    "FIPS": 97,
+    "GEONAME": "Pitkin County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -18
+  },
+  {
+    "FIPS": 97,
+    "GEONAME": "Pitkin County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -9
+  },
+  {
+    "FIPS": 97,
+    "GEONAME": "Pitkin County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 1
+  },
+  {
+    "FIPS": 97,
+    "GEONAME": "Pitkin County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 2
+  },
+  {
+    "FIPS": 99,
+    "GEONAME": "Prowers County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -16
+  },
+  {
+    "FIPS": 99,
+    "GEONAME": "Prowers County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -8
+  },
+  {
+    "FIPS": 99,
+    "GEONAME": "Prowers County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 10
+  },
+  {
+    "FIPS": 99,
+    "GEONAME": "Prowers County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 17
+  },
+  {
+    "FIPS": 99,
+    "GEONAME": "Prowers County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 10
+  },
+  {
+    "FIPS": 99,
+    "GEONAME": "Prowers County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 101,
+    "GEONAME": "Pueblo County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -172
+  },
+  {
+    "FIPS": 101,
+    "GEONAME": "Pueblo County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -107
+  },
+  {
+    "FIPS": 101,
+    "GEONAME": "Pueblo County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 44
+  },
+  {
+    "FIPS": 101,
+    "GEONAME": "Pueblo County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 57
+  },
+  {
+    "FIPS": 101,
+    "GEONAME": "Pueblo County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 40
+  },
+  {
+    "FIPS": 101,
+    "GEONAME": "Pueblo County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 103,
+    "GEONAME": "Rio Blanco County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 103,
+    "GEONAME": "Rio Blanco County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -27
+  },
+  {
+    "FIPS": 103,
+    "GEONAME": "Rio Blanco County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -23
+  },
+  {
+    "FIPS": 103,
+    "GEONAME": "Rio Blanco County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -5
+  },
+  {
+    "FIPS": 103,
+    "GEONAME": "Rio Blanco County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 103,
+    "GEONAME": "Rio Blanco County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 105,
+    "GEONAME": "Rio Grande County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -19
+  },
+  {
+    "FIPS": 105,
+    "GEONAME": "Rio Grande County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -21
+  },
+  {
+    "FIPS": 105,
+    "GEONAME": "Rio Grande County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -1
+  },
+  {
+    "FIPS": 105,
+    "GEONAME": "Rio Grande County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -1
+  },
+  {
+    "FIPS": 105,
+    "GEONAME": "Rio Grande County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 12
+  },
+  {
+    "FIPS": 105,
+    "GEONAME": "Rio Grande County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 107,
+    "GEONAME": "Routt County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -5
+  },
+  {
+    "FIPS": 107,
+    "GEONAME": "Routt County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -18
+  },
+  {
+    "FIPS": 107,
+    "GEONAME": "Routt County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -6
+  },
+  {
+    "FIPS": 107,
+    "GEONAME": "Routt County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -10
+  },
+  {
+    "FIPS": 107,
+    "GEONAME": "Routt County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 7
+  },
+  {
+    "FIPS": 107,
+    "GEONAME": "Routt County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 109,
+    "GEONAME": "Saguache County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -8
+  },
+  {
+    "FIPS": 109,
+    "GEONAME": "Saguache County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -6
+  },
+  {
+    "FIPS": 109,
+    "GEONAME": "Saguache County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -23
+  },
+  {
+    "FIPS": 109,
+    "GEONAME": "Saguache County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 109,
+    "GEONAME": "Saguache County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 109,
+    "GEONAME": "Saguache County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 111,
+    "GEONAME": "San Juan County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 111,
+    "GEONAME": "San Juan County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 111,
+    "GEONAME": "San Juan County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 111,
+    "GEONAME": "San Juan County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 111,
+    "GEONAME": "San Juan County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 111,
+    "GEONAME": "San Juan County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 113,
+    "GEONAME": "San Miguel County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 113,
+    "GEONAME": "San Miguel County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -4
+  },
+  {
+    "FIPS": 113,
+    "GEONAME": "San Miguel County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 113,
+    "GEONAME": "San Miguel County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -15
+  },
+  {
+    "FIPS": 113,
+    "GEONAME": "San Miguel County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": -6
+  },
+  {
+    "FIPS": 113,
+    "GEONAME": "San Miguel County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": -1
+  },
+  {
+    "FIPS": 115,
+    "GEONAME": "Sedgwick County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 115,
+    "GEONAME": "Sedgwick County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -10
+  },
+  {
+    "FIPS": 115,
+    "GEONAME": "Sedgwick County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 115,
+    "GEONAME": "Sedgwick County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 4
+  },
+  {
+    "FIPS": 115,
+    "GEONAME": "Sedgwick County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 115,
+    "GEONAME": "Sedgwick County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 117,
+    "GEONAME": "Summit County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -4
+  },
+  {
+    "FIPS": 117,
+    "GEONAME": "Summit County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -4
+  },
+  {
+    "FIPS": 117,
+    "GEONAME": "Summit County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -37
+  },
+  {
+    "FIPS": 117,
+    "GEONAME": "Summit County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": -15
+  },
+  {
+    "FIPS": 117,
+    "GEONAME": "Summit County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 16
+  },
+  {
+    "FIPS": 117,
+    "GEONAME": "Summit County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 119,
+    "GEONAME": "Teller County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -13
+  },
+  {
+    "FIPS": 119,
+    "GEONAME": "Teller County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -7
+  },
+  {
+    "FIPS": 119,
+    "GEONAME": "Teller County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -4
+  },
+  {
+    "FIPS": 119,
+    "GEONAME": "Teller County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 119,
+    "GEONAME": "Teller County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 119,
+    "GEONAME": "Teller County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": -12
+  },
+  {
+    "FIPS": 121,
+    "GEONAME": "Washington County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 121,
+    "GEONAME": "Washington County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -12
+  },
+  {
+    "FIPS": 121,
+    "GEONAME": "Washington County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -3
+  },
+  {
+    "FIPS": 121,
+    "GEONAME": "Washington County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 8
+  },
+  {
+    "FIPS": 121,
+    "GEONAME": "Washington County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 9
+  },
+  {
+    "FIPS": 121,
+    "GEONAME": "Washington County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  },
+  {
+    "FIPS": 123,
+    "GEONAME": "Weld County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -123
+  },
+  {
+    "FIPS": 123,
+    "GEONAME": "Weld County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -75
+  },
+  {
+    "FIPS": 123,
+    "GEONAME": "Weld County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": 330
+  },
+  {
+    "FIPS": 123,
+    "GEONAME": "Weld County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 393
+  },
+  {
+    "FIPS": 123,
+    "GEONAME": "Weld County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 155
+  },
+  {
+    "FIPS": 123,
+    "GEONAME": "Weld County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 3
+  },
+  {
+    "FIPS": 125,
+    "GEONAME": "Yuma County",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -18
+  },
+  {
+    "FIPS": 125,
+    "GEONAME": "Yuma County",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -16
+  },
+  {
+    "FIPS": 125,
+    "GEONAME": "Yuma County",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -15
+  },
+  {
+    "FIPS": 125,
+    "GEONAME": "Yuma County",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 8
+  },
+  {
+    "FIPS": 125,
+    "GEONAME": "Yuma County",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": -5
+  },
+  {
+    "FIPS": 125,
+    "GEONAME": "Yuma County",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 0
+  }
+]
