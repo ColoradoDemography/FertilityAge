@@ -54,11 +54,11 @@ window.onload = function() {
             display: false
           },
           label: function(tooltipItem, data) {
-            if (selectElemStat.value == 0){
+            //if (selectElemStat.value == 0){
               var label = commafy(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index]);
-            } else {
-              var label = formatAsPercentage(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index],2);
-            }
+            //} else {
+              //var label = formatAsPercentage(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index],2);
+            //}
             return label;
   			    },
 			  }
@@ -69,11 +69,11 @@ window.onload = function() {
 			    categoryPercentage: 0.5,
           ticks: {
 			      callback: function(value, index, values) {
-              if (selectElemStat.value == 0){
+              //if (selectElemStat.value == 0){
 			          return commafy(value);
-              } else{
-                return formatAsPercentage(value, 0);
-              }
+              //} else{
+                //return formatAsPercentage(value, 0);
+              //}
 			      }
 			    },
 			  }],
@@ -112,178 +112,62 @@ function handler(event){
   var chartDatasets = [];
   var selectedValues = $('#sel').val();
   
-  
   myLine.data.datasets.forEach(dataset => { 
     for (let d = 0; d < myLine.data.datasets.length; i++){
       myLine.data.datasets.pop();
     }
-    //console.log(selectElemCounty.value);
-    
-    //console.log(selectElemVal);
+
     seconddata = getData2();
     for (let i = 0; i < selectedValues.length; i++){
       selectElemVal = getData(selectedValues[i]);
-      
       var sdodata = [];
       var censusdata = [];
+      var countyLabel = '';
       if (selectElemSource.value == "0"){
-        if (selectElemStat.value == "0"){
-          for (j in selectElemVal){
-            sdodata.push(Number(selectElemVal[j].totalpopulation));
+    
+        for (j in selectElemVal){
+          if (selectElemVal[j].FIPS == selectedValues[i]){
+            sdodata.push(Number(selectElemVal[j].Change1120));
+            countyLabel = selectElemVal[j].GEONAME;
           }
-          //const dsColor = getRandomColor();
-          const newDataset = {
-            label: selectElemVal[0].county,
-            backgroundColor: colorList[i],
-            borderColor: colorList[i],
-            fill: false,
-            data: sdodata
-          }
-          console.log("Push");
-          myLine.data.datasets.push(newDataset);
-        } else { console.log("1");
-          var sdototalpop = 0;
-          var censustotalpop = 0;
-          var tempsdo = [];
-          var tempcensus = [];
-          for (j in selectElemVal){
-            tempsdo.push(Number(selectElemVal[j].totalpopulation));
-            sdototalpop += Number(selectElemVal[j].totalpopulation);
-          }
-          console.log("tempsdo: " + tempsdo); console.log("sdototalpop " + sdototalpop);
-          for (k in tempsdo){
-            sdodata.push((tempsdo[k]/sdototalpop*100));
-          }
+        }
         
-          //const dsColor = getRandomColor();
-          const newDataset = {
-            label: selectElemVal[0].county,
-            backgroundColor: colorList[i],
-            borderColor: colorList[i],
-            fill: false,
-            data: sdodata
-          }
-          console.log("Push");
-          myLine.data.datasets.push(newDataset);
-      }
-        //sdodata);
-        //myLine.data.datasets[i].data.push(sdodata);
-        /* for (j in seconddata){
-          if (seconddata[j].countyfips == selectElemCountyvalue){
-            censusdata.push(Number(seconddata[j].Age0));
-            censusdata.push(Number(seconddata[j].Age5));
-            censusdata.push(Number(seconddata[j].Age10));
-            censusdata.push(Number(seconddata[j].Age15));
-            censusdata.push(Number(seconddata[j].Age20));
-            censusdata.push(Number(seconddata[j].Age25));
-            censusdata.push(Number(seconddata[j].Age30));
-            censusdata.push(Number(seconddata[j].Age35));
-            censusdata.push(Number(seconddata[j].Age40));
-            censusdata.push(Number(seconddata[j].Age45));
-            censusdata.push(Number(seconddata[j].Age50));
-            censusdata.push(Number(seconddata[j].Age55));
-            censusdata.push(Number(seconddata[j].Age60));
-            censusdata.push(Number(seconddata[j].Age65));
-            censusdata.push(Number(seconddata[j].Age70));
-            censusdata.push(Number(seconddata[j].Age75));
-            censusdata.push(Number(seconddata[j].Age80));
-            censusdata.push(Number(seconddata[j].Age85));
-            censusdata.push(Number(seconddata[j].Age90));
-            censusdata.push(Number(seconddata[j].Age95));
-          }   
-        } */
+        const newDataset = {
+          label: countyLabel,
+          backgroundColor: colorList[i],
+          borderColor: colorList[i],
+          fill: false,
+          data: sdodata
+        }
+        
+        myLine.data.labels = startlabels;
+
+        myLine.data.datasets.push(newDataset);
       } else {
-      if (selectElemStat.value == "0"){
         for (j in seconddata){
-          if (seconddata[j].countyfips == selectedValues[i]){
-            censusdata.push(Number(seconddata[j].Age0));
-            censusdata.push(Number(seconddata[j].Age5));
-            censusdata.push(Number(seconddata[j].Age10));
-            censusdata.push(Number(seconddata[j].Age15));
-            censusdata.push(Number(seconddata[j].Age20));
-            censusdata.push(Number(seconddata[j].Age25));
-            censusdata.push(Number(seconddata[j].Age30));
-            censusdata.push(Number(seconddata[j].Age35));
-            censusdata.push(Number(seconddata[j].Age40));
-            censusdata.push(Number(seconddata[j].Age45));
-            censusdata.push(Number(seconddata[j].Age50));
-            censusdata.push(Number(seconddata[j].Age55));
-            censusdata.push(Number(seconddata[j].Age60));
-            censusdata.push(Number(seconddata[j].Age65));
-            censusdata.push(Number(seconddata[j].Age70));
-            censusdata.push(Number(seconddata[j].Age75));
-            censusdata.push(Number(seconddata[j].Age80));
-            censusdata.push(Number(seconddata[j].Age85));
-            censusdata.push(Number(seconddata[j].Age90));
-            censusdata.push(Number(seconddata[j].Age95));
+          if (seconddata[j].FIPS == selectedValues[i]){
+            censusdata.push(Number(seconddata[j].Cng5Yr1120));
+            countyLabel = seconddata[j].GEONAME;
           }
         }   
 
-        //const dsColor = getRandomColor();
         const newDataset = {
-          label: selectElemVal[0].county,
+          label: countyLabel,
           backgroundColor: colorList[i],
           borderColor: colorList[i],
           fill: false,
           data: censusdata
         }
-        console.log("Push");
+   
+        myLine.data.labels = ['15 to 19','20 to 24','25 to 29','30 to 34','35 to 39','40 to 44'];
         myLine.data.datasets.push(newDataset)
       }
-       else{
-        
-        var censustotalpop = 0;
-        var tempcensus = [];
-        for (j in seconddata){
-          if (seconddata[j].countyfips == selectedValues[i]){
-            tempcensus.push(Number(seconddata[j].Age0));
-            tempcensus.push(Number(seconddata[j].Age5));
-            tempcensus.push(Number(seconddata[j].Age10));
-            tempcensus.push(Number(seconddata[j].Age15));
-            tempcensus.push(Number(seconddata[j].Age20));
-            tempcensus.push(Number(seconddata[j].Age25));
-            tempcensus.push(Number(seconddata[j].Age30));
-            tempcensus.push(Number(seconddata[j].Age35));
-            tempcensus.push(Number(seconddata[j].Age40));
-            tempcensus.push(Number(seconddata[j].Age45));
-            tempcensus.push(Number(seconddata[j].Age50));
-            tempcensus.push(Number(seconddata[j].Age55));
-            tempcensus.push(Number(seconddata[j].Age60));
-            tempcensus.push(Number(seconddata[j].Age65));
-            tempcensus.push(Number(seconddata[j].Age70));
-            tempcensus.push(Number(seconddata[j].Age75));
-            tempcensus.push(Number(seconddata[j].Age80));
-            tempcensus.push(Number(seconddata[j].Age85));
-            tempcensus.push(Number(seconddata[j].Age90));
-            tempcensus.push(Number(seconddata[j].Age95));
-          }   
-        }
-        for (j in tempcensus){
-          censustotalpop += tempcensus[j];
-        }
-        for (j in tempcensus){
-          console.log(censustotalpop);
-          censusdata.push((tempcensus[j]/censustotalpop*100));
-        }
+       
+    }
 
-        //const dsColor = getRandomColor();
-        const newDataset = {
-          label: selectElemVal[0].county,
-          backgroundColor: colorList[i],
-          borderColor: colorList[i],
-          fill: false,
-          data: censusdata
-        }
-console.log("Push");
-        myLine.data.datasets.push(newDataset)
-      
-    }
-  }
-    //myLine.data.datasets.push(chartDatasets);
-    //dataset.data = sdodata;
-    }
+    
   });
-  //console.log(myLine.data.datasets);
+
   window.myLine.update();
 };
 
