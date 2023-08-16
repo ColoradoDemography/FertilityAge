@@ -3,6 +3,15 @@
 
 <head>
 	<title>Fertility Change by Age</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+	 <script src="https://cdn.plot.ly/plotly-2.24.1.min.js" charset="utf-8"></script>
+	 <link type="text/css" rel="stylesheet" href="./css/common.css" async=""> 
+	<link href="https://cdn.datatables.net/v/dt/dt-1.13.5/b-2.4.1/datatables.min.css" rel="stylesheet"/>
+	<script src="https://cdn.datatables.net/v/dt/dt-1.13.5/b-2.4.1/datatables.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
 	<script src="js/Chart.js"></script>
 	<script src="js/utils.js"></script>
 	<script src="js/saveSvgAsPng.js"></script>
@@ -18,6 +27,7 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/css/bootstrap-multiselect.css" />
 	
+	
 
 	<style>
 	canvas {
@@ -29,129 +39,145 @@
 </head>
 
 <body>
-	<div style="margin-left: 5px;"> 
-	  <br />
-	  <p>Select choices from dropdown and then hit the Draw Chart button to reflect your selections. Drawing may take a moment.</p>
-	  <label>Counties:
-	  <select multiple id="sel">
-		<option value="1" selected>Adams</option>
-		<option value="3" >Alamosa</option>
-		<option value="5" >Arapahoe</option>
-	    <option value="7" >Archuleta</option>
-	    <option value="9" >Baca</option>
-	    <option value="11" >Bent</option>
-		<option value="13" >Boulder</option>
-		<option value="14" >Broomfield</option>
-	    <option value="15" >Chaffee</option>
-	    <option value="17" >Cheyenne</option>
-	    <option value="19" >Clear Creek</option>
-	    <option value="21" >Conejos</option>
-	    <option value="23" >Costilla</option>
-	    <option value="25" >Crowley</option>
-	    <option value="27" >Custer</option>
-	    <option value="29" >Delta</option>
-		<option value="31" >Denver</option>
-	    <option value="33" >Dolores</option>
-		<option value="35" >Douglas</option>
-	    <option value="37" >Eagle</option>
-	    <option value="39" >Elbert</option>
-	    <option value="41" >El Paso</option>
-	    <option value="43" >Fremont</option>
-	    <option value="45" >Garfield</option>
-	    <option value="47" >Gilpin</option>
-	    <option value="49" >Grand</option>
-	    <option value="51" >Gunnison</option>
-	    <option value="53" >Hinsdale</option>
-	    <option value="55" >Huerfano</option>
-	    <option value="57" >Jackson</option>
-		<option value="59" >Jefferson</option>
-	    <option value="61" >Kiowa</option>
-	    <option value="63" >Kit Carson</option>
-	    <option value="65" >Lake</option>
-	    <option value="67" >La Plata</option>
-	    <option value="69" >Larimer</option>
-	    <option value="71" >Las Animas</option>
-	    <option value="73" >Lincoln</option>
-	    <option value="75" >Logan</option>
-	    <option value="77" >Mesa</option>
-	    <option value="79" >Mineral</option>
-	    <option value="81" >Moffat</option>
-	    <option value="83" >Montezuma</option>
-	    <option value="85" >Montrose</option>
-	    <option value="87" >Morgan</option>
-	    <option value="89" >Otero</option>
-	    <option value="91" >Ouray</option>
-	    <option value="93" >Park</option>
-	    <option value="95" >Phillips</option>
-	    <option value="97" >Pitkin</option>
-	    <option value="99" >Prowers</option>
-	    <option value="101" >Pueblo</option>
-	    <option value="103" >Rio Blanco</option>
-	    <option value="105" >Rio Grande</option>
-	    <option value="107" >Routt</option>
-	    <option value="109" >Saguache</option>
-	    <option value="111" >San Juan</option>
-	    <option value="113" >San Miguel</option>
-	    <option value="115" >Sedgwick</option>
-	    <option value="117" >Summit</option>
-	    <option value="119" >Teller</option>
-	    <option value="121" >Washington</option>
-	    <option value="123" >Weld</option>
-	    <option value="125" >Yuma</option>
-	  </select></label>
- 	  <label>Source: 
-		<select id="sel2">
-			<option value="0" >1 Year Age Groups</option>
-			<option value="1" >5 Year Age Groups</option>
-		</select></label> 
-<!--	  <label>Statistic: 
-		<select id="sel3">
-			<option value="0" >Total Population</option>
-			<option value="1" >% of Population</option>
-		</select></label> -->
-		<button id="drawbtn" type="button">
-			Draw Chart
-		</button>
-        <a href="https://storage.googleapis.com/co-publicdata/ChangeInBirths2011to2020.csv">Data Download</a>
-	</div>
+	<a class="skip-main" href="#main">Skip to main content</a>
 	
+	<div>
+		<a href="https://cdola.colorado.gov/"><img class="logoSDO" src="./img/SDO-1600x400.jpg" alt="Department of Local Affairs Homepage"></a>
+	</div>
+		<div w3-include-html="./html/navheader.html"></div>
+	<!-- First Grid, linked images -->
+	<div class="grid-container2">
+		<div class="grid-item panel2_1_1">
+			<div w3-include-html="./html/sdotitle.html"></div>
+		</div>
+		<div class="grid-item app-panel_2_1" id="leftHand">
+			<div w3-include-html="./html/left_hand_index.html"></div>
+		</div> <!-- Grid  panel2_2_1 -->
+		<!-- <div class="grid-item panel_2_2">
+					   </div>
+		   <div class="grid-item panel_3_2">
+			<div id="PopTab"></div>
+			<div id="COCTab"></div>
+			<div id="RaceTab"></div>
+		  </div>
+		  <div class="grid-item panel_3_3">
+			<div id="HousTab"></div>
+			<div id="TenureTab"></div>
+		  </div>
+		  <div class="grid-item panel_3_4">
+			<div id="ACSTab"></div>
+		  </div> -->
+	   
+		<div class="grid-item app-panel_2_2" id="main" tabindex="-1"> 
+			<div style="margin-left: 5px;" > 
+				<br />
+				<p>Select choices from dropdown and then hit the Draw Chart button to reflect your selections. Drawing may take a moment.</p>
+				<label>Counties:
+				<select multiple id="sel">
+					<option value="1" selected>Adams</option>
+					<option value="3" >Alamosa</option>
+					<option value="5" >Arapahoe</option>
+					<option value="7" >Archuleta</option>
+					<option value="9" >Baca</option>
+					<option value="11" >Bent</option>
+					<option value="13" >Boulder</option>
+					<option value="14" >Broomfield</option>
+					<option value="15" >Chaffee</option>
+					<option value="17" >Cheyenne</option>
+					<option value="19" >Clear Creek</option>
+					<option value="21" >Conejos</option>
+					<option value="23" >Costilla</option>
+					<option value="25" >Crowley</option>
+					<option value="27" >Custer</option>
+					<option value="29" >Delta</option>
+					<option value="31" >Denver</option>
+					<option value="33" >Dolores</option>
+					<option value="35" >Douglas</option>
+					<option value="37" >Eagle</option>
+					<option value="39" >Elbert</option>
+					<option value="41" >El Paso</option>
+					<option value="43" >Fremont</option>
+					<option value="45" >Garfield</option>
+					<option value="47" >Gilpin</option>
+					<option value="49" >Grand</option>
+					<option value="51" >Gunnison</option>
+					<option value="53" >Hinsdale</option>
+					<option value="55" >Huerfano</option>
+					<option value="57" >Jackson</option>
+					<option value="59" >Jefferson</option>
+					<option value="61" >Kiowa</option>
+					<option value="63" >Kit Carson</option>
+					<option value="65" >Lake</option>
+					<option value="67" >La Plata</option>
+					<option value="69" >Larimer</option>
+					<option value="71" >Las Animas</option>
+					<option value="73" >Lincoln</option>
+					<option value="75" >Logan</option>
+					<option value="77" >Mesa</option>
+					<option value="79" >Mineral</option>
+					<option value="81" >Moffat</option>
+					<option value="83" >Montezuma</option>
+					<option value="85" >Montrose</option>
+					<option value="87" >Morgan</option>
+					<option value="89" >Otero</option>
+					<option value="91" >Ouray</option>
+					<option value="93" >Park</option>
+					<option value="95" >Phillips</option>
+					<option value="97" >Pitkin</option>
+					<option value="99" >Prowers</option>
+					<option value="101" >Pueblo</option>
+					<option value="103" >Rio Blanco</option>
+					<option value="105" >Rio Grande</option>
+					<option value="107" >Routt</option>
+					<option value="109" >Saguache</option>
+					<option value="111" >San Juan</option>
+					<option value="113" >San Miguel</option>
+					<option value="115" >Sedgwick</option>
+					<option value="117" >Summit</option>
+					<option value="119" >Teller</option>
+					<option value="121" >Washington</option>
+					<option value="123" >Weld</option>
+					<option value="125" >Yuma</option>
+				</select></label>
+				<label>Source: 
+					<select id="sel2">
+						<option value="0" >1 Year Age Groups</option>
+						<option value="1" >5 Year Age Groups</option>
+					</select></label> 
+
+					<button id="drawbtn" type="button">
+						Draw Chart
+					</button>
+					<a href="https://storage.googleapis.com/co-publicdata/ChangeInBirths2011to2020.csv">Data Download</a>
+			</div>
 	
-	<!-- <div style="margin-left: 5px;">
-	<button id="drawbtn" type="button">
-		Draw Chart
-	</button>
-	</div>
-	<div class="ui-widget"><label>Statistic: 
-		<select id="sel2">
-			<option value="0" >Total Population</option>
-			<option value="1" >% of Population</option>
-		</select></label>
-	</div>
-	<br>
-	<div class="ui-widget"><label>Source: 
-		<select id="sel3">
-			<option value="0" >2021 SDO Estimates</option>
-			<option value="1" >2020 Census Population</option>
-		</select></label>
+			<div id="container" style="width: 100%; height: 100%">
+				<canvas id="canvas" width="800" height="400">
+					<p>Your Browser Does Not Support Canvas</p>
+				</canvas>
+			</div>
+		</div>
+	<!-- <div id="other">
+		<p></p> change based on initial county
 	</div> -->
+<!-- 
+	<div class="grid-item panel_4_2">
+		<div w3-include-html="./html/bodycontent1.html"></div>
+ </div>
+<div class="grid-item panel_4_3">
+		<div w3-include-html="./html/bodycontent2.html"></div>
+</div>
+<div class="grid-item panel_4_4">
+		<div w3-include-html="./html/bodycontent3.html"></div>
+</div> -->
+	</div> 
 
-	<div id="container" style="width: 100%; height: 100%" >
-		<canvas id="canvas" width="800" height="400">
-            <p>Your Browser Does Not Support Canvas</p>
-        </canvas>
-	</div>
-	<div id="other">
-		<p></p> <!-- change based on initial county -->
-	</div>
-	<!--<div id="exportdiv">-->
- <!--       <button type="button" id="t_download" class="btn" onclick="saveSvgAsPng(document.getElementsByTagName('ctx')[0], 'diagram.png');" tabindex="8" accesskey="i">Download PNG</button>-->
- <!--   </div>-->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/js/bootstrap-multiselect.min.js"></script>
-
+<script>includeHTML();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/js/bootstrap-multiselect.min.js"></script>
+	
 	<script src="js/app.js"></script>
-
 
 </body>
 
