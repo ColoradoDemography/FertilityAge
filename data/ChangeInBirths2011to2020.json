@@ -1,5 +1,215 @@
 [
   {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Change1120": -103
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 15,
+    "Age": 16,
+    "Change1120": -290
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 15,
+    "Age": 17,
+    "Change1120": -509
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 15,
+    "Age": 18,
+    "Change1120": -745
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 15,
+    "Age": 19,
+    "Change1120": -1018
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Change1120": -1051
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 20,
+    "Age": 21,
+    "Change1120": -728
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 20,
+    "Age": 22,
+    "Change1120": -628
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 20,
+    "Age": 23,
+    "Change1120": -682
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 20,
+    "Age": 24,
+    "Change1120": -693
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Change1120": -568
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 25,
+    "Age": 26,
+    "Change1120": -417
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 25,
+    "Age": 27,
+    "Change1120": -257
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 25,
+    "Age": 28,
+    "Change1120": -223
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 25,
+    "Age": 29,
+    "Change1120": -20
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Change1120": 69
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 30,
+    "Age": 31,
+    "Change1120": 167
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 30,
+    "Age": 32,
+    "Change1120": 454
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 30,
+    "Age": 33,
+    "Change1120": 526
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 30,
+    "Age": 34,
+    "Change1120": 838
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Change1120": 798
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 35,
+    "Age": 36,
+    "Change1120": 619
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 35,
+    "Age": 37,
+    "Change1120": 440
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 35,
+    "Age": 38,
+    "Change1120": 384
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 35,
+    "Age": 39,
+    "Change1120": 246
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Change1120": 117
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 40,
+    "Age": 41,
+    "Change1120": 58
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 40,
+    "Age": 42,
+    "Change1120": 62
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 40,
+    "Age": 43,
+    "Change1120": 40
+  },
+  {
+    "FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 40,
+    "Age": 44,
+    "Change1120": 20
+  },
+  {
     "FIPS": 1,
     "GEONAME": "Adams County",
     "AgeGroup": 15,

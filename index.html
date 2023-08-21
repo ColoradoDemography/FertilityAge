@@ -74,7 +74,8 @@
 				<p>Select choices from dropdown and then hit the Draw Chart button to reflect your selections. Drawing may take a moment.</p>
 				<label>Counties:
 				<select multiple id="sel">
-					<option value="1" selected>Adams</option>
+					<option value="0" selected>Colorado</option>
+					<option value="1" >Adams</option>
 					<option value="3" >Alamosa</option>
 					<option value="5" >Arapahoe</option>
 					<option value="7" >Archuleta</option>
@@ -146,9 +147,19 @@
 					</select></label> 
 
 					<button id="drawbtn" type="button">
-						Draw Chart
+						Redraw Chart
 					</button>
-					<a href="https://storage.googleapis.com/co-publicdata/ChangeInBirths2011to2020.csv">Data Download</a>
+					<!--<a href="https://storage.googleapis.com/co-publicdata/ChangeInBirths2011to2020.csv">Data Download</a>-->
+			</div>
+			<div class="dropdown AClass">
+				<button class="dropbtn"  id="estimate"><i class="fas fas fa-download fa-2x" style='color: black;'></i></button>
+				<div class="dropdown-content">
+					<ul class='dd-list'>
+				  <li><a href='#' id='est_csv'>Download Data (CSV)</a></li>
+				  <li><a href='#' id='est_png'>Download Image (PNG)</a></li>
+				  <li><a href='https://coloradodemography.github.io/population/data/county-data-lookup/' id='est_src'>County Total Population Lookup</a></li>
+				  </ul>
+				</div>
 			</div>
 	
 			<div id="container" style="width: 100%; height: 100%">

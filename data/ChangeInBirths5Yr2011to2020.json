@@ -1,5 +1,47 @@
 [
   {
+	"FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 15,
+    "Age": 15,
+    "Cng5Yr1120": -2665
+  },
+  {
+	"FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 20,
+    "Age": 20,
+    "Cng5Yr1120": -3782
+  },
+  {
+	"FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 25,
+    "Age": 25,
+    "Cng5Yr1120": -1485
+  },
+  {
+	"FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 30,
+    "Age": 30,
+    "Cng5Yr1120": 2054
+  },
+  {
+	"FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 35,
+    "Age": 35,
+    "Cng5Yr1120": 2487
+  },
+  {
+	"FIPS": 0,
+    "GEONAME": "Colorado",
+    "AgeGroup": 40,
+    "Age": 40,
+    "Cng5Yr1120": 297
+  },
+  {
     "FIPS": 1,
     "GEONAME": "Adams County",
     "AgeGroup": 15,

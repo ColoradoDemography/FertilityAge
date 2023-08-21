@@ -2,6 +2,7 @@ var selectElemCounty = document.getElementById('sel');
 var selectElemSource = document.getElementById('sel2');
 var selectElemStat = document.getElementById('sel3');
 var drawElement = document.getElementById('drawbtn');
+var makepng = document.getElementById('downloadPNG');
 
 $('select[multiple]').multiselect()
 
@@ -28,7 +29,7 @@ window.onload = function() {
     
     data: {
       datasets:[{
-        label: "Adams County",
+        label: "Colorado",
         data: sdodata,
         fill: false,
         backgroundColor: 'rgb(239,138,98)',
@@ -102,6 +103,11 @@ window.onload = function() {
 	});
 			
 };
+
+/* makepng.addEventListener("click", getpng);
+function getpng(event){
+  saveSvgAsPng(document.getElementById("container"), "plot.png");
+} */
 
 //selectElemCounty.addEventListener('change', handler, false);
 //selectElemSource.addEventListener('change', handler, false);
