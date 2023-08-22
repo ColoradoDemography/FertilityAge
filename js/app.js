@@ -2,21 +2,27 @@ var selectElemCounty = document.getElementById('sel');
 var selectElemSource = document.getElementById('sel2');
 var selectElemStat = document.getElementById('sel3');
 var drawElement = document.getElementById('drawbtn');
-//var makepng = document.getElementById('downloadPNG');
+var srcCanvas = document.getElementById('canvas');
 
+//function to create a white background for the canvas and convert to a png
 function dlCanvas(){
-  var dt = canvas.toDataURL('image/png');
+  destinationCanvas = document.createElement("canvas");
+  destinationCanvas.width = srcCanvas.width;
+  destinationCanvas.height = srcCanvas.height;
+
+  destCtx = destinationCanvas.getContext('2d');
+
+  //create a rectangle with the desired color
+  destCtx.fillStyle = "#FFFFFF";
+  destCtx.fillRect(0,0,srcCanvas.width,srcCanvas.height);
+
+  //draw the original canvas onto the destination canvas
+  destCtx.drawImage(srcCanvas, 0, 0);
+  var dt = destinationCanvas.toDataURL('image/png');
   this.href = dt.replace(/^data:image\/[^;]/, 'data:application/octet-stream');
 };
 downloadPNG.addEventListener('click', dlCanvas, false);
 
-/* makepng.addEventListener("click", getpng);
-function getpng(event){
-  var canvas = document.getElementById("canvas");
-  var img = canvas.toDataURL("image/png");
-  document.write('<img src="'+img+'"/>');
-}
- */
 $('select[multiple]').multiselect()
 
 //change these to reflect Alamosa when making the annual update
