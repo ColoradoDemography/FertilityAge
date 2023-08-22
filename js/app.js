@@ -2,8 +2,21 @@ var selectElemCounty = document.getElementById('sel');
 var selectElemSource = document.getElementById('sel2');
 var selectElemStat = document.getElementById('sel3');
 var drawElement = document.getElementById('drawbtn');
-var makepng = document.getElementById('downloadPNG');
+//var makepng = document.getElementById('downloadPNG');
 
+function dlCanvas(){
+  var dt = canvas.toDataURL('image/png');
+  this.href = dt.replace(/^data:image\/[^;]/, 'data:application/octet-stream');
+};
+downloadPNG.addEventListener('click', dlCanvas, false);
+
+/* makepng.addEventListener("click", getpng);
+function getpng(event){
+  var canvas = document.getElementById("canvas");
+  var img = canvas.toDataURL("image/png");
+  document.write('<img src="'+img+'"/>');
+}
+ */
 $('select[multiple]').multiselect()
 
 //change these to reflect Alamosa when making the annual update
@@ -104,10 +117,7 @@ window.onload = function() {
 			
 };
 
-/* makepng.addEventListener("click", getpng);
-function getpng(event){
-  saveSvgAsPng(document.getElementById("container"), "plot.png");
-} */
+
 
 //selectElemCounty.addEventListener('change', handler, false);
 //selectElemSource.addEventListener('change', handler, false);
@@ -281,3 +291,4 @@ function getRandomColor() {
 }
 
 const colorList = ['#a50026','#313695','#f46d43','#74add1','#fee090','#f1b6da','#6a3d9a','#ff7f00','#b2df8a','#cab2d6'];
+
