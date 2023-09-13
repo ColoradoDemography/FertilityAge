@@ -116,7 +116,7 @@ window.onload = function() {
         },
         subtitle: {
           display: true,
-          text: 'Source: Data and Visualization by Colorado State Demography Office, '+date(new Date),
+          text: 'Source: Data and Visualization by Colorado State Demography Office. Print date: '+date(new Date),
           position: 'bottom',
           font: {
             size: 10
