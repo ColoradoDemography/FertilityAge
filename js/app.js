@@ -23,7 +23,7 @@ function dlCanvas(){
 };
 downloadPNG.addEventListener('click', dlCanvas, false);
 
-$('select[multiple]').multiselect()
+//$('select[multiple]').multiselect()
 
 //change these to reflect Alamosa when making the annual update
 var startlabels = ['15','','','','','20','','','','','25','','','','','30','','','','','35','','','','','40','','','','44'];
@@ -33,7 +33,7 @@ var startdata = [992,1389,129,137,2078,695,756,436,0,0,992,1389,129,137,2078,695
 window.onload = function() {
 	var ctx = document.getElementById('canvas').getContext('2d');
   var firstdata = getData("0");
-  //var seconddata = getData2();
+  const date = d3.timeFormat("%B %d, %Y");
   
   var sdodata = [];
   //var censusdata = [];
@@ -53,14 +53,7 @@ window.onload = function() {
         fill: false,
         backgroundColor: 'rgb(239,138,98)',
         borderColor: 'rgb(239,138,98)'
-      }/* ,
-      {
-        label: "Census",
-        data: censusdata,
-        fill: false,
-        borderColor: 'rgb(103,169,207)'
-      } */
-    ],
+      }],
       labels: startlabels,
     },
 		options: {
@@ -84,7 +77,8 @@ window.onload = function() {
 			  }
 			},  
 			scales: {
-			  yAxes: [{
+			  y: {
+          type: 'linear',
 			    barPercentage: 1,
 			    categoryPercentage: 0.5,
           ticks: {
@@ -96,13 +90,13 @@ window.onload = function() {
               //}
 			      }
 			    },
-			  }],
-			  xAxes: [{
-			    scaleLabel: {
+			  },
+			  x: {
+			    title: {
 			      display: true,
-			      labelString: 'Ages'
+			      text: 'Ages'
 			    }
-			  }]
+			  }
 			},
 			elements: {
 				rectangle: {
@@ -110,14 +104,25 @@ window.onload = function() {
 				}
 			},
 			responsive: false,
-			legend: {
-				display: true,
-				position: 'right',
-			},
-			title: {
-				display: true,
-				text: 'Change in Births 2011-2020'
-			}
+      tension: .3,
+			plugins: {
+        legend: {
+          display: true,
+          position: 'right',
+        },
+        title: {
+          display: true,
+          text: 'Change in Births by Age 2011-2020'
+        },
+        subtitle: {
+          display: true,
+          text: 'Source: Data and Visualization by Colorado State Demography Office, '+date(new Date),
+          position: 'bottom',
+          font: {
+            size: 10
+          }
+        }
+    }
 		}
 	});
 			

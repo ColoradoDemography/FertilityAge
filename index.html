@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Fertility Change by Age</title>
+	<title>Change in Births by Age</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
@@ -12,7 +12,7 @@
 	<link href="https://cdn.datatables.net/v/dt/dt-1.13.5/b-2.4.1/datatables.min.css" rel="stylesheet"/>
 	<script src="https://cdn.datatables.net/v/dt/dt-1.13.5/b-2.4.1/datatables.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
-	<script src="js/Chart.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
 	<script src="js/utils.js"></script>
 	<script src="js/saveSvgAsPng.js"></script>
 	<!-- Google tag (gtag.js) -->
@@ -53,28 +53,42 @@
 		</div>
 		<div class="grid-item app-panel_2_1" id="leftHand">
 			<div w3-include-html="./html/left_hand_index.html"></div>
-		</div> <!-- Grid  panel2_2_1 -->
-		<!-- <div class="grid-item panel_2_2">
-					   </div>
-		   <div class="grid-item panel_3_2">
-			<div id="PopTab"></div>
-			<div id="COCTab"></div>
-			<div id="RaceTab"></div>
-		  </div>
-		  <div class="grid-item panel_3_3">
-			<div id="HousTab"></div>
-			<div id="TenureTab"></div>
-		  </div>
-		  <div class="grid-item panel_3_4">
-			<div id="ACSTab"></div>
-		  </div> -->
+		</div> 
 	   
-		<div class="grid-item app-panel_2_2" id="main" tabindex="-1"> 
-			<div style="margin-left: 5px;" > 
-				<br />
-				<p>Select choices from dropdown and then hit the Draw Chart button to reflect your selections. Drawing may take a moment.</p>
-				<p>Categories with too few births have been suppressed</p>
-				<label>Counties:
+		<div class="grid-item app-panel_2_2"> 
+		<h1 class='h1_style' id="main" >Change in Births by Age Chart</h1>
+		<h2 class='h2_style'>INSTRUCTIONS:</h2>
+
+		<p>Select choices from dropdowns and then hit the Generate Chart button to reflect your selections. Drawing can take a moment.</p>
+			<p>
+			You can hover over specific data points on each graph to view the data for that specific point. <br>
+			Click on the download icon on the top right of the chart to download the chart and the underlying data.<br>
+			Categories with too few births have been suppressed
+			</p>
+			<p>
+			<b><i>This data visualization can only be viewed on a tablet or desktop.</i></b>
+			</p>
+		<hr>
+			
+		<table class="lookup_tab" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="lookup_cll">
+					<label class="entry_text" for="sel" id="geo-lbl"  alt='Counties' aria-label='Counties'>Counties:</label> 
+				</td>
+				<td class="lookup_cll">
+						<label class="entry_text" for="sel2" id="year-lbl"  alt='Statistic' aria-label='Statistic'>Statistic:</label> 
+				</td>
+				<td class="lookup_cll">
+				</td>
+				<td class="lookup_cll">
+				</td>
+				</td>
+				<td class="lookup_cll">
+				</td>
+				</tr>
+
+				<tr>
+					<td class="lookup_cll">
 				<select multiple id="sel">
 					<option value="0" selected>Colorado</option>
 					<option value="1" >Adams</option>
@@ -141,47 +155,40 @@
 					<option value="121" >Washington</option>
 					<option value="123" >Weld</option>
 					<option value="125" >Yuma</option>
-				</select></label>
-				<label>Source: 
+				</select>
+				</td>
+				<td class="lookup_cll"> 
 					<select id="sel2">
 						<option value="0" >1 Year Age Groups</option>
 						<option value="1" >5 Year Age Groups</option>
-					</select></label> 
+					</select>
+				</td>
 
-					<button id="drawbtn" type="button">
-						Redraw Chart
-					</button>
-					<!--<a href="https://storage.googleapis.com/co-publicdata/ChangeInBirths2011to2020.csv">Data Download</a>-->
-			</div>
-			<div class="dropdown AClass">
-				<button class="dropbtn"  id="estimate"><i class="fas fas fa-download fa-2x" style='color: black;'></i></button>
-				<div class="dropdown-content">
-				  <ul class='dd-list'>
-					<li><a href='https://storage.googleapis.com/co-publicdata/ChangeInBirths2011to2020.csv' id='est_csv'>Download the Data</a></li>
-					<li><a href='#' id='downloadPNG' download="Change in Births by Age.png">Download Image (PNG)</a></li>
-				  </ul>
-				</div>
+				<td class="lookup_cll">
+					<button class='databutton' id='drawbtn'>Generate Chart</button><br><br>
+					<div class="dropdown AClass">
+						<button class="dropbtn"  id="estimate"><i class="fas fas fa-download fa-2x" style='color: black;'></i></button>
+							<div class="dropdown-content">
+								<ul class='dd-list'>
+									<li><a href='https://storage.googleapis.com/co-publicdata/ChangeInBirths2011to2020.csv' id='est_csv'>Download the Data</a></li>
+									<li><a href='#' id='downloadPNG' download="Change in Births by Age.png">Download Image (PNG)</a></li>
+								</ul>
+							</div>
+					</div>
+				</td>
+			</tr>
+		</table>
 			</div>
 	
+
+		<div class="grid-item app-panel_3_2">	
 			<div id="container" style="width: 100%; height: 100%">
 				<canvas id="canvas" width="800" height="400">
 					<p>Your Browser Does Not Support Canvas</p>
 				</canvas>
 			</div>
 		</div>
-	<!-- <div id="other">
-		<p></p> change based on initial county
-	</div> -->
-<!-- 
-	<div class="grid-item panel_4_2">
-		<div w3-include-html="./html/bodycontent1.html"></div>
- </div>
-<div class="grid-item panel_4_3">
-		<div w3-include-html="./html/bodycontent2.html"></div>
-</div>
-<div class="grid-item panel_4_4">
-		<div w3-include-html="./html/bodycontent3.html"></div>
-</div> -->
+	
 	</div> 
 
 <script>includeHTML();</script>
