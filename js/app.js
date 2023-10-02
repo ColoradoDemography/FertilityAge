@@ -44,7 +44,7 @@ window.onload = function() {
  
 
 	window.myLine = new Chart(ctx, {
-		type: 'line',
+		type: 'bar',
 		//data: lineChartData,
     
     data: {
@@ -52,8 +52,8 @@ window.onload = function() {
         label: "Colorado",
         data: sdodata,
         fill: false,
-        backgroundColor: 'rgb(239,138,98)',
-        borderColor: 'rgb(239,138,98)'
+        backgroundColor: colorList[0],
+        borderColor: colorList[0]
       }],
       labels: startlabels,
     },
@@ -113,7 +113,7 @@ window.onload = function() {
         },
         title: {
           display: true,
-          text: 'Change in Births by Age 2011-2020'
+          text: 'Change in Births by Age 2011-2020'// - ' + selectElemCounty.options[selectElemCounty.selectedIndex].innerHTML
         },
         subtitle: {
           display: true,
@@ -187,8 +187,9 @@ function handler(event){
           data: censusdata
         }
    
-        myLine.data.labels = ['15 to 19','20 to 24','25 to 29','30 to 34','35 to 39','40 to 44'];
         myLine.data.datasets.push(newDataset)
+        //myLine.options.plugins.title.text = 'Change in Births by Age 2011-2020 - ' + selectElemCounty.options[selectElemCounty.selectedIndex].innerHTML;
+        myLine.data.labels = ['15 to 19','20 to 24','25 to 29','30 to 34','35 to 39','40 to 44'];
       }
        
     }
